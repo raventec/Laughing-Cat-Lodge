@@ -26,8 +26,9 @@ img.laugh {
   color: white;
 }
 
-.navbar-right > a:link {
+ .navbar a {
   color: white;
+
 }
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
