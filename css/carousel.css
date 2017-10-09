@@ -130,4 +130,10 @@ img.laugh {
   .featurette-heading {
     margin-top: 7rem;
   }
+
+@media (max-width: 500px) {
+  .myCarousel {
+    visibility: none;
+  }
+}
 }
