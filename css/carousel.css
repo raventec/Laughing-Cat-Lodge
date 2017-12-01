@@ -130,10 +130,23 @@ img.laugh {
   .featurette-heading {
     margin-top: 7rem;
   }
-
-@media (max-width: 500px) {
-  .myCarousel {
-    visibility: none;
+}
+@media only screen and (max-width: 900px) {
+  .carousel {
+    display: none;
+  }
+  .marketing {
+    margin-top: 4em;
   }
 }
+@media only screen and (max-width: 500px) {
+  .carousel {
+    display: none;
+  }
+  .marketing {
+    margin-top: 10em;
+  }
+  .reservations {
+    margin-top: 6em;
+  }
 }
